@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block title %} 
+chai page
+{% endblock %}
+
+{% block content %}
+    <h1>all-chai tum yaha tak pahuch gy page</h1>
+{% endblock %}
+<div class="grid grid-cols-3 gap-4">
+
+</div>
+
+{% for chai in chais %}
+<div class="bg-blue-100 p-4 rounded-lg shadow-md">
+    <img class="rounded" src="{{ chai.image.url }}" alt="">
+    <h3 class="text-2xl font-bold">{{ chai.name }}</h3>
+    <h2>{{ chai.name }}</h2>
+
+</div>
+    
+{% endfor %}
