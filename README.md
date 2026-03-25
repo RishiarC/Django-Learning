@@ -1,27 +1,27 @@
-# Django Learning Project 🚀
+# 🚀 Django Learning Project
 
-## 📌 About Project
+## 📌 Overview
 
-This is a Django-based web application created for learning backend development.
-It includes basic Django concepts like apps, templates, static files, and database integration.
+This is a Django-based web application developed for learning backend development using Django.
+The project demonstrates core concepts such as apps, templates, static files, and database integration.
 
 ---
 
-## ⚙️ Features
+## 🎯 Features
 
-* Django project setup
-* App creation (arogya)
-* Templates rendering
+* Django project & app structure
+* Template rendering (HTML)
 * Static files (CSS)
-* Media handling (images)
-* Basic project structure
+* Media file handling (images)
+* Basic database (SQLite)
+* Clean Git & GitHub workflow
 
 ---
 
 ## 🛠️ Tech Stack
 
-* Python
-* Django
+* Python 🐍
+* Django 🌐
 * HTML
 * CSS
 
@@ -32,42 +32,43 @@ It includes basic Django concepts like apps, templates, static files, and databa
 ```
 Django-Learning/
 │── codewith_me/
-│   │── arogya/        # App
-│   │── codewith_me/  # Project settings
-│   │── static/
-│   │── templates/
-│   │── media/
+│   │── arogya/              # Django App
+│   │── codewith_me/        # Project settings
+│   │── static/             # CSS files
+│   │── templates/          # HTML templates
+│   │── media/              # Images
 │   │── manage.py
 │
 │── .gitignore
 │── README.md
+│── requirements.txt
 ```
 
 ---
 
-## 🚀 How to Run the Project
+## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the repository
+### 1️⃣ Clone Repository
 
 ```
 git clone https://github.com/RishiarC/Django-Learning.git
 cd Django-Learning
 ```
 
-### 2️⃣ Create virtual environment
+### 2️⃣ Create Virtual Environment
 
 ```
 python -m venv .venv
 .venv\Scripts\activate
 ```
 
-### 3️⃣ Install dependencies
+### 3️⃣ Install Dependencies
 
 ```
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Run the server
+### 4️⃣ Run Server
 
 ```
 python manage.py runserver
@@ -77,22 +78,21 @@ python manage.py runserver
 
 ---
 
-## 🧠 What I Learned
+## 🧠 Learning Outcomes
 
-* Django project & app structure
+* Understanding Django architecture
+* Working with templates & static files
 * Git & GitHub workflow
-* .gitignore usage
-* Static & media files handling
-* Basic backend development
+* Backend fundamentals
 
 ---
 
-## 📌 Future Improvements
+## 🔮 Future Improvements
 
-* Add login/signup system
-* Build REST APIs (Django REST Framework)
-* Improve UI/UX
-* Deploy project online
+* User Authentication (Login/Signup)
+* REST API (Django REST Framework)
+* Better UI/UX
+* Deployment (Live Hosting)
 
 ---
 
@@ -103,6 +103,6 @@ GitHub: https://github.com/RishiarC
 
 ---
 
-## ⭐ Support
+## ⭐ Show Your Support
 
-If you like this project, give it a ⭐ on GitHub!
+If you like this project, please ⭐ the repository!
